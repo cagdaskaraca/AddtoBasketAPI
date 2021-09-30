@@ -6,3 +6,5 @@ Projede datalar manuel eklenmiştir. Proje çalıştırıldığında "Swagger" i
 Projede BasketController ve StockController, ProductController olmak üzere üç adet Controller bulunmaktadır. Kullanıcıların sepetlerini yönetebilmek için BasketController kullanılır, StockController ise stok durumunu kontrol etmek için kullanılmaktadır, ProductController ürünleri yönetmek için kullanılmaktadır.
 
 Proje Stok kontrolü ile çalışmaktadır. Sepete ürün eklemeye çalıştığınızda stok bulunmuyorsa metottan sepete ürün eklenemedi hatası dönecektir. Çünkü kullanıcı id ve ürün id ile birlikte sepete ürün eklemeye çalıştığımızda, sepete eklenen ürün sayısı kadar stoktan ürün adedi düşülmektedir. Eğer sepete eklenmek istenilen kadar ürün mevcut değilse sepete eklenmeyecektir.
+
+![Addtobasket](https://user-images.githubusercontent.com/36699320/135469193-7aeb384c-bfe9-4bfb-8b90-90b3fe4f9d46.png)
